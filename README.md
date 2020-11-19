@@ -1,5 +1,6 @@
 # Titanic Survival Prediction
  Titanic Survival Prediction Task
+ 
  Dataset: https://www.kaggle.com/c/titanic/overview
  
 ## Preprocessing
@@ -17,7 +18,9 @@ missing value由全部fare的平均填補
 
 ## Modeling
 Environment: Google Colab
+
 Random Forest Classifier + GridSearchCV
+
 best estimator:
 ```
 RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,

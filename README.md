@@ -6,14 +6,23 @@
 ## Preprocessing
 Field
 * Name: 
+
 依據名字的title如```['Mr.', 'Mrs.', 'Miss.', 'Master', 'Other']```分成5類
+
 * Age:
+
 處理missing value，以名字title分群，並以每個title group的年齡中位數值填補
+
 * Cabin
+
 與艙等位置有關，
+
 * Embarked
+
 missing value用```S```填補(```S```出現次數最多)
+
 * Fare
+
 missing value由全部fare的平均填補
 
 ## Modeling
